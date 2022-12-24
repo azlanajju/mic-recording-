@@ -90,13 +90,13 @@ audio::-webkit-media-controls-current-time-display {
   body 
   .container{
     width: 90%;
-    height: 90vh;
+    height: 80vh;
   }
   .record{
-    margin-top: 500px;
+    margin-top: 400px;
   }
   audio{
-    top: 100px;
+    top:0px;
     bottom: 0px;
   }
 }
