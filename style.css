@@ -2,6 +2,7 @@ body{
   height: 100vh;
 }
 .container{
+  border-radius: 15px;
   border: 2px solid ;
   width: 70vw;
   height: 70vh;
@@ -9,7 +10,7 @@ body{
   color: rgb(72, 218, 72);
   font-size: 50px;
 
-  background-color: rgb(235, 229, 229);
+  background-color: white;
   box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
   border: none;
 font-weight: bold;
@@ -36,7 +37,7 @@ margin-top: 300px;
 
 }
 audio{
-  /* display: none; */
+  display: none; 
   margin-top: 20px;
   position: absolute;
   margin: auto;
@@ -84,6 +85,18 @@ audio::-webkit-media-controls-play-button:hover {
 audio::-webkit-media-controls-current-time-display {
   color: rgb(72, 218, 72);
 }
-a{
-  border: 2px solid;
+
+@media only screen and (max-width: 700px) {
+  body 
+  .container{
+    width: 90%;
+    height: 90vh;
+  }
+  .record{
+    margin-top: 500px;
+  }
+  audio{
+    top: 100px;
+    bottom: 0px;
+  }
 }

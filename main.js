@@ -40,18 +40,18 @@
         // Start the recording
         mediaRecorder.start();
         recordButton.innerHTML = '◉';
+        
         recordButton.classList.add("blink");
       });
     }
   }
 
   // Add a click event listener to the record button
-  recordButton.addEventListener('click', toggleRecording);
+  recordButton.addEventListener('click', toggleRecording); 
   var audioUrl = URL.createObjectURL(audioBlob);
  audioElement = document.getElementById('audio');
 audioElement.src = audioUrl;
 audioElement.play();
-
 
 
 
