@@ -1,0 +1,89 @@
+body{
+  height: 100vh;
+}
+.container{
+  border: 2px solid ;
+  width: 70vw;
+  height: 70vh;
+  margin: auto;
+  color: rgb(72, 218, 72);
+  font-size: 50px;
+
+  background-color: rgb(235, 229, 229);
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
+  border: none;
+font-weight: bold;
+
+}
+.record{
+
+  color: rgb(72, 218, 72);
+  font-size: 50px;
+ height: 100px;
+ width: 100px;
+  background-color: #ecf0f3;
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
+  border: none;
+  border-radius: 50%;
+  margin: 8px;
+font-weight: bold;
+margin-top: 300px;
+
+}
+.record:hover{
+  font-size: 45px;
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .2);
+
+}
+audio{
+  /* display: none; */
+  margin-top: 20px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+right: 0;
+bottom: 100px;
+background-color: #ecf0f3;
+border-radius:28px ;
+
+box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .2);
+
+
+}
+
+
+.blink{
+animation: blink 1s infinite;
+color: red;
+}
+@keyframes blink{
+    0% {
+      color: #333;
+    }
+    50% {
+      color: #f00;
+    }
+    100% {
+      color: #333;
+    }
+}
+
+
+
+audio::-webkit-media-controls-panel {
+  background-color: #fff;
+}
+audio::-webkit-media-controls-play-button:hover {
+  
+  background-color:white;
+  border-radius: 50%;
+  box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .2);
+
+} 
+audio::-webkit-media-controls-current-time-display {
+  color: rgb(72, 218, 72);
+}
+a{
+  border: 2px solid;
+}
